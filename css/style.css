@@ -12,10 +12,15 @@ p {
 .navbar {
     background-color: #3b024d;
     height: 60px;
-    width: 1305px;
+    width: 1963px;
     margin-left: -50px;
     margin-top: -10px;
     padding-top: 2px;
+    position: fixed;
+}
+
+.test{
+    padding-top: 2.5%;
 }
 
 .link_navbar li {
@@ -29,7 +34,7 @@ p {
     font-weight: bold;
     padding: 10px;
     margin: 20px;
-    transition: all 0.5s;
+    transition: all 0.8s;
 }
 
 .link_navbar a:hover {
