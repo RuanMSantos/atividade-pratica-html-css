@@ -4,6 +4,7 @@ body {
 }
 
 p {
+    text-align: justify;
     font-weight: 600;
     color: #000000;
 }
@@ -11,24 +12,55 @@ p {
 .navbar {
     background-color: #3b024d;
     height: 60px;
-    margin-top: 5px;
+    width: 1305px;
+    margin-left: -50px;
+    margin-top: -10px;
     padding-top: 2px;
 }
 
-.link-navbar li {
+.link_navbar li {
     display: inline;
 }
 
-.link-navbar a {
+.link_navbar a {
     color: white;
     text-decoration: none;
     font-size: 25px;
     font-weight: bold;
     padding: 10px;
     margin: 20px;
-
+    transition: all 0.5s;
 }
 
-.link-navbar a:hover {
-    color: rgb(119, 119, 119);
+.link_navbar a:hover {
+    color: rgb(204, 255, 0);
+}
+
+.div_img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.div_img_perfil {
+    float: left;
+}
+
+.img {
+    border-radius: 20px;
+    width: 400px;
+    margin: 30px;
+    box-shadow: 2px 2px 15px silver,
+    12px 12px 10px 4px black;
+}
+
+#img_perfil {    
+    border-radius: 200px;
+    width: 400px;
+    margin: 30px;
+    box-shadow: 2px 2px 15px silver,
+    12px 12px 10px 4px black;
+    width: 300px;
+    margin-left: 4px;
 }
