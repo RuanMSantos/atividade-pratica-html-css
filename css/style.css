@@ -1,0 +1,34 @@
+body {
+    background-image: linear-gradient(to right,#F2F2F2 0%, #CEDEF2 30%, #1E2640 100%);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-weight: 600;
+    color: #000000;
+}
+
+.navbar {
+    background-color: #3b024d;
+    height: 60px;
+    margin-top: 5px;
+    padding-top: 2px;
+}
+
+.link-navbar li {
+    display: inline;
+}
+
+.link-navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px;
+    margin: 20px;
+
+}
+
+.link-navbar a:hover {
+    color: rgb(119, 119, 119);
+}
